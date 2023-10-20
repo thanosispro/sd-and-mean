@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body{
+            background-image: url('back.jpg');
+            background-size: cover;
+            margin: 0;
+            padding :0;
+            background-repeat: no-repeat;
+
+        }
+        .btn1{
+            border: none;
+  border-radius: 4px;
+  color: #ffffff; /* Text color */
+  background-color: rgba(0,0,0,0.7); /* Primary color (blue) */
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  height: 30pt;
+  width: 100pt;
+        }
+        .btn1:hover{
+            
+  background-color: #0056b3; /* Darker shade of the primary color on hover */
+
+        }
+     
+    
+        #buttons{
+              border: none;
+ 
+  color: #ffffff; /* Text color */
+  background-color: #007bff; /* Primary color (blue) */
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  height: 40px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+/* Button hover effect */
+#buttons:hover {
+  background-color: #0056b3; /* Darker shade of the primary color on hover */
+}
+
+.text{
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 40px;
+}
+
+.text1{
+    color: blue;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 45px;
+}
+
+
+
+        
+  
+    </style>
+   
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 style="text-align: center; font-family: Arial, Helvetica, sans-serif; color: #fff;">WELECOME TO FIND THE MEAN AND STANDARD DEVATION</h1>
+    
+    
+    <center><h1><input type="number" id="number" style="height: 40px; width: 290px;" min="0" placeholder="WRITE HOW MANY CLASSES YOU WANT"></h1>
+    <button id="buttons">SUBMIT</button></center>
+    
+    <br>
+   <p> <h3 style="margin-left: 17%; display: inline-block;" id="writeclass"></h3>
+    <h3 style="margin-left:4%; display: inline-block;" id="frequency"></h3>
+    <h3 style="margin-left:4%; display: inline-block;" id="midvalu"></h3>
+    <h3 style="margin-left:4%; display: inline-block;" id="F.M">
+        <h3 style="margin-left:9%; display: inline-block;" id="square"></h3></h3></p>
+    <!--MAIN ROW IS HERE-->
+   <div class="row" style="">
+    <div id="firstclass" style="margin-left: 200px; display: inline-block;">
+
+    </div>
+    <div id="das" style="display: inline-block; color: #fff;">
+       
+
+    </div>
+    <div id="secondclass" style="display: inline-block;">
+  
+    </div>
+    <div id="freq" style="display: inline-block; margin-left: 5%;">
+    </div>
+<div id="midvalue" style="display: inline-block; margin-left: 5%;">
+
+</div>
+<div id="fm" style="display: inline-block; margin-left: 5%;">
+
+</div>
+<div id="squar" style="display: inline-block; margin-left: 5%;"">
+
+</div>
+   </div>
+   <!--MAIN ROW STOPPED-->
+   <div style="position: relative;">
+   <p id="sumoff" style="margin-left: 35%; font-weight: bolder; font-size: 20px; color: white; display: inline-block;"></p>
+   <p style="margin-left: 15%; font-size: 20px; font-weight: bolder; color: white; display: inline-block;" id="sumofall"></p>
+   <p style="margin-left: 4%; font-size: 20px; font-weight: bolder; color: black; display: inline-block;" id="sumofalls"></p>
+   <br></div>
+
+   <p style="text-align: center; color: white; font-size: 20pt;" id="mean"></p>
+   <p style="text-align: center; color: white; font-size: 20pt;" id="sdlasty"></p>
+   <center><p id="lastbtn"></p></center>
+
+<script src="mean.js"></script>
+      
+    
+</body>
+</html>
